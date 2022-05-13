@@ -14,6 +14,5 @@ image.src = './img/Pellet Town.png'
 console.log(image)
 
 image.onload = () => {
-    console.log('Loaded!!!!!')
     ctx.drawImage(image, 0, 0)
 }
